@@ -1,0 +1,21 @@
+# and
+
+x = int(input("enter the number :"))
+y = int(input("enter the number :"))
+z = (x>y) and (x<y)
+print(z)
+
+
+# or
+
+x = int(input("enter the number :"))
+y = int(input("enter the number :"))
+z = (x>y) or (x<y)
+print(z)
+
+
+# not
+x = int(input("enter the number :"))
+y = int(input("enter the number :"))
+z = not(x>y) and (x<y)
+print(z)
